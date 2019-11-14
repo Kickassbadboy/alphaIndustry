@@ -9195,3 +9195,13 @@ box-shadow: 0px 6px 19px -3px rgba(0,0,0,0.33);
 /* .hoverEffect{
 background-color: #012f5d;
 } */
+
+.list {
+    color: black;
+    font-weight: lighter;
+}
+
+.list:hover {
+    color: white;
+    background-color: #012f5d;
+}
