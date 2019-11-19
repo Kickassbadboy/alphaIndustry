@@ -9205,3 +9205,6 @@ background-color: #012f5d;
     color: white;
     background-color: #012f5d;
 }
+.icon-list li{
+    display: inline-block;
+}
