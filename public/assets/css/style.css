@@ -3275,7 +3275,6 @@ div.aligncenter,
 
 .primary-mobile-nav ul.menu li > ul {
     position: absolute;
-    float: left;
     right: 0;
     top: 0;
     visibility: visible;
@@ -6063,7 +6062,6 @@ ul.service-menu .children li:last-child {
 }
 
 .woocommerce div.product form.cart .qty-label {
-    float: left;
     margin-right: 10px;
     display: inline-block;
     min-height: 45px;
@@ -7891,13 +7889,13 @@ body.boxed {
 .owl-carousel {
     display: none;
     position: relative;
-    -ms-touch-action: pan-y;
+    /* -ms-touch-action: pan-y; */
 }
 
 .owl-carousel .owl-wrapper {
     display: none;
     position: relative;
-    -webkit-transform: translate3d(0px, 0px, 0px);
+    /* -webkit-transform: translate3d(0px, 0px, 0px); */
 }
 
 .owl-carousel .owl-wrapper-outer {
@@ -7933,14 +7931,14 @@ body.boxed {
 /* fix */
 
 .owl-carousel .owl-wrapper,
-.owl-carousel .owl-item {
+/* .owl-carousel .owl-item {
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
-}
+} */
 
 .owl-controls {
     text-align: center;
@@ -8604,7 +8602,6 @@ body.boxed {
 .shop_cart_table .table-1 tr td.flex_item img {
     width: 70px;
     display: inline-block;
-    float: left;
     margin-right: 10px;
 }
 
@@ -9205,3 +9202,7 @@ background-color: #012f5d;
     color: white;
     background-color: #012f5d;
 }
+.icon-list {
+    display: inline;
+  }
+  
