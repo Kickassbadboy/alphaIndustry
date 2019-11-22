@@ -9202,7 +9202,7 @@ background-color: #012f5d;
     color: white;
     background-color: #012f5d;
 }
-.icon-list {
-    display: inline;
-  }
-  
+.inline-block {
+    display: inline-block;
+ }
+ 
