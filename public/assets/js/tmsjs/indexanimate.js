@@ -19,27 +19,28 @@ window.onload = function () {
 }
 
 async function imgchange() {
-   
-   
-        var currimage;
 
-        var img1 = "assets/images/main-slider/core_box1.png";
-        var img2 = "assets/images/main-slider/slide2-hp1.png";
-        // var img3="assets/images/main-slider/core_box.png";
-        // var img4="assets/images/main-slider/core_box.png";
 
-        var images = [img1];
-        var index = 0;
-        currimage = images[index];
-        
-        setInterval(function () {
-            index++;
+    var currimage;
+
+    var img1 = "assets/images/main-slider/core_box1.png";
+    var img2 = "assets/images/main-slider/slide2-hp1.png";
+    // var img3="assets/images/main-slider/core_box.png";
+    // var img4="assets/images/main-slider/core_box.png";
+
+    var images = [img1,img2];
+    var index = 0;
+    currimage = images[index];
+
+    setInterval(function () {
+        console.log("Set Intervel");
+        index++;
         // for (i = 0; i < images.length; i++) {
         //     currimage = images[i];
 
         // }
-
-    }, 3000)
-    document.getElementById('img').src = currimage;
+        document.getElementById('img').src = currimage;
+    }, 3000);
+   
 
 }
