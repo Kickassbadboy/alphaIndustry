@@ -14,33 +14,35 @@ for(i=0;i<images.length; i++)
 }
 */
 
-window.onload = function () {
+window.onload = function() {
     imgchange();
 }
 
-async function imgchange() {
+function imgchange() {
 
 
     var currimage;
 
     var img1 = "assets/images/main-slider/core_box1.png";
-    var img2 = "assets/images/main-slider/slide2-hp1.png";
+    var img2 = "assets/images/main-slider/slide2-hp1.jpg";
     // var img3="assets/images/main-slider/core_box.png";
     // var img4="assets/images/main-slider/core_box.png";
 
-    var images = [img1,img2];
+    var images = [img1, img2];
     var index = 0;
-    currimage = images[index];
 
-    setInterval(function () {
+
+    setInterval(function() {
+        document.getElementById('img').src = images[index];
         console.log("Set Intervel");
-        index++;
+        index = (index + 1) % images.length;
         // for (i = 0; i < images.length; i++) {
         //     currimage = images[i];
 
         // }
-        document.getElementById('img').src = currimage;
+
     }, 3000);
-   
+
+
 
 }
