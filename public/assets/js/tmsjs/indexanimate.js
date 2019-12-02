@@ -13,3 +13,33 @@ for(i=0;i<images.length; i++)
     this.currImage = images[i];
 }
 */
+
+window.onload = function () {
+    imgchange();
+}
+
+async function imgchange() {
+   
+   
+        var currimage;
+
+        var img1 = "assets/images/main-slider/core_box1.png";
+        var img2 = "assets/images/main-slider/slide2-hp1.png";
+        // var img3="assets/images/main-slider/core_box.png";
+        // var img4="assets/images/main-slider/core_box.png";
+
+        var images = [img1];
+        var index = 0;
+        currimage = images[index];
+        
+        setInterval(function () {
+            index++;
+        // for (i = 0; i < images.length; i++) {
+        //     currimage = images[i];
+
+        // }
+
+    }, 3000)
+    document.getElementById('img').src = currimage;
+
+}
