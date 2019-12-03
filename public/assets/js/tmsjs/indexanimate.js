@@ -41,7 +41,7 @@ function imgchange() {
 
         // }
 
-    }, 3000);
+    }, 6000);
 
 
 
