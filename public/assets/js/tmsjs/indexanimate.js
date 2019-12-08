@@ -14,7 +14,7 @@ for(i=0;i<images.length; i++)
 }
 */
 
-window.onload = function () {
+window.onload = function() {
     imgchange();
 }
 
@@ -38,15 +38,15 @@ function imgchange() {
     var images = [img1, img2, img3, img4];
     var index = 0;
 
-    setInterval(function () {
-        var element = document.getElementById("para01"); 
-        element.innerHTML = para1;
-        var element = document.getElementById("para02");
-        element.innerHTML = para2;
-        var element = document.getElementById("para03");
-        element.innerHTML = para3;
-        var element = document.getElementById("para04");
-        element.innerHTML = para4;
+    setInterval(function() {
+        var element = document.getElementById("para01");
+        element.innerHTML = paragraph[paraindex];
+        // var element = document.getElementById("para02");
+        // element.innerHTML = para2;
+        // var element = document.getElementById("para03");
+        // element.innerHTML = para3;
+        // var element = document.getElementById("para04");
+        // element.innerHTML = para4;
 
         console.log("Set Interval");
         paraindex = (paraindex + 1) % paragraph.length;
@@ -59,6 +59,14 @@ function imgchange() {
 
         // }
 
-    },6000);
-}
+    }, 6000);
 
+    nextImageandText() {
+        var element = document.getElementById("para01");
+        element.innerHTML = paragraph[paraindex++];
+
+        document.getElementById('img').src = images[index++];
+
+    }
+
+}
