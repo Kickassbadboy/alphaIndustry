@@ -61,7 +61,7 @@ function imgchange() {
 
     }, 6000);
 
-    nextImageandText() {
+    nextImageandText(); {
         var element = document.getElementById("para01");
         element.innerHTML = paragraph[paraindex++];
 
