@@ -33,7 +33,7 @@ function imgchange() {
     var para3 = "<h5>A proud team of experienced engineers with an innovative approach.</h5><br>Alpha has a qualified team of engineers and professionals ready to take on new industry challenges."
     var para4 = "<h5>Allied expertise in design, simulation and reverse engineering.</h5><br>Alpha has established capabilities in designing of technically critical projects alongside customers by understanding their needs. <br>We have achieved competence in simulation of castings and design optimisation which guarantee reliable results."
 
-    var paragraph = [para1, para2, para3];
+    var paragraph = [para1, para2, para3, para4];
     var paraindex = 0;
     var images = [img1, img2, img3, img4];
     var index = 0;
