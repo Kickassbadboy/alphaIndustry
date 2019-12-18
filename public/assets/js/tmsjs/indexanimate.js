@@ -23,7 +23,7 @@ function imgchange() {
 
     var currimage;
 
-    var img1 = "assets/images/Final folder/cover01.png";
+    var img1 = "assets/images/Final folder/cover1.png";
     var img2 = "assets/images/Final folder/cover2.png";
     var img3 = "assets/images/Final folder/cover3.png";
     var img4 = "assets/images/Final folder/cover4.png";
