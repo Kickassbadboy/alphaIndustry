@@ -23,43 +23,79 @@ function imgchange() {
 
     var currimage;
 
-    var img1 = "assets/images/Final/cover1.png";
-    var img2 = "assets/images/Final/cover2.png";
-    var img3 = "assets/images/Final/cover3.png";
-    var img4 = "assets/images/Final/cover4.png";
+    var img1 = "assets/images/Final/Old_images/1.png";
+    var img2 = "assets/images/Final/Old_images/2.png";
+    var img3 = "assets/images/Final/Old_images/3.png";
+    var img4 = "assets/images/Final/Old_images/cover4.png";
 
     var para1 = "<h5>Your partner in manufacturing of  foundry tooling, dies and fixtures.</h5><br>Alpha has consistently embraced innovation to provide reliable services to a wide range of industries.";
     var para2 = "<h5>We offer a wide range of foundry solutions.With over 2 decades experience in this field,</h5> <br>Alpha has earned a high reputation in foundry tooling solutions.";
     var para3 = "<h5>A proud team of experienced engineers with an innovative approach.</h5><br>Alpha has a qualified team of engineers and professionals ready to take on new industry challenges."
     var para4 = "<h5>Allied expertise in design, simulation and reverse engineering.</h5><br>Alpha has established capabilities in designing of technically critical projects alongside customers by understanding their needs. <br>We have achieved competence in simulation of castings and design optimisation which guarantee reliable results."
 
+    var button1 = `  <a class="
+    tp - caption fp_button_layer rev - btn tp - resizeme "
+    href = "service-pattern-making.html"
+    id = "slide-2-layer-4"
+    
+    
+    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:transparent;border-color:rgba(0,0,0,0);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
+    More1 </a> `;
+    var button2 = `  <a class="
+    tp - caption fp_button_layer rev - btn tp - resizeme "
+    href = "service-pattern-making.html"
+    id = "slide-2-layer-4"
+    
+    
+    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:transparent;border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
+    More 2</a> `;
+    var button3 = `  <a class="
+    tp - caption fp_button_layer rev - btn tp - resizeme "
+    href = "service-pattern-making.html"
+    id = "slide-2-layer-4"
+    
+    
+    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:transparent;border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
+    More3 </a> `;
+    var button4 = `  <a class="
+    tp - caption fp_button_layer rev - btn tp - resizeme "
+    href = "service-pattern-making.html"
+    id = "slide-2-layer-4"
+    
+    
+    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:transparent;border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
+    More4 </a> `;
+
+
     var paragraph = [para1, para2, para3, para4];
     var paraindex = 0;
     var images = [img1, img2, img3, img4];
     var index = 0;
+    var buttons = [button1, button2, button3, button4];
+    var buttonindex = 0;
 
     setInterval(function() {
-        // var element = document.getElementById("para01");
-        // element.innerHTML = paragraph[paraindex];
-        // var element = document.getElementById("para02");
-        // element.innerHTML = para2;
-        // var element = document.getElementById("para03");
-        // element.innerHTML = para3;
-        // var element = document.getElementById("para04");
-        // element.innerHTML = para4;
+        var element = document.getElementById("para01");
+        element.innerHTML = paragraph[paraindex];
+
+        var element2 = document.getElementById("button");
+        element2.innerHTML = buttons[buttonindex];
 
         console.log("Set Interval");
         paraindex = (paraindex + 1) % paragraph.length;
+        buttonindex = (buttonindex + 1) % buttons.length;
+
 
         document.getElementById('newmage').src = images[index];
         console.log("Set Intervel");
         index = (index + 1) % images.length;
+
         // for (i = 0; i < images.length; i++) {
         //     currimage = images[i];
 
         // }
 
-    }, 6000);
+    }, 4000);
 
     // nextImageandText(); {
     //     var element = document.getElementById("para01");
