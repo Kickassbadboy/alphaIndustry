@@ -1,19 +1,3 @@
-/*
-Create an Array 
-var currImage ='';
-var var1=relativelink
-var var2=relativelink
-var var3=relativelink
-
-
-var images = [var1, var2, var3];
-
-for(i=0;i<images.length; i++)
-{
-    this.currImage = images[i];
-}
-*/
-
 window.onload = function() {
     imgchange();
 }
@@ -39,32 +23,32 @@ function imgchange() {
     id = "slide-2-layer-4"
     
     
-    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:transparent;border-color:rgba(0,0,0,0);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
-    More1 </a> `;
+    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:rgb(109, 68, 221);;border-color:rgba(0,0,0,0);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
+    More </a> `;
     var button2 = `  <a class="
     tp - caption fp_button_layer rev - btn tp - resizeme "
     href = "service-pattern-making.html"
     id = "slide-2-layer-4"
     
     
-    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:transparent;border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
-    More 2</a> `;
+    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:rgb(109, 68, 221);border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
+    More</a> `;
     var button3 = `  <a class="
     tp - caption fp_button_layer rev - btn tp - resizeme "
     href = "service-pattern-making.html"
     id = "slide-2-layer-4"
     
     
-    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:transparent;border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
-    More3 </a> `;
+    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:rgb(109, 68, 221);;border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
+    More </a> `;
     var button4 = `  <a class="
     tp - caption fp_button_layer rev - btn tp - resizeme "
     href = "service-pattern-making.html"
     id = "slide-2-layer-4"
     
     
-    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:transparent;border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
-    More4 </a> `;
+    style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:rgb(109, 68, 221);;border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
+    More </a> `;
 
 
     var paragraph = [para1, para2, para3, para4];
@@ -90,19 +74,10 @@ function imgchange() {
         console.log("Set Intervel");
         index = (index + 1) % images.length;
 
-        // for (i = 0; i < images.length; i++) {
-        //     currimage = images[i];
 
-        // }
 
     }, 4000);
 
-    // nextImageandText(); {
-    //     var element = document.getElementById("para01");
-    //     element.innerHTML = paragraph[paraindex++];
 
-    //     document.getElementById('img').src = images[index++];
-
-    // }
 
 }
