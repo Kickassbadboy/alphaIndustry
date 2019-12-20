@@ -26,7 +26,7 @@ function imgchange() {
     var img1 = "assets/images/Final/Old_images/1.png";
     var img2 = "assets/images/Final/Old_images/2.png";
     var img3 = "assets/images/Final/Old_images/3.png";
-    var img4 = "assets/images/Final/Old_images/cover4.png";
+    var img4 = "assets/images/Final/Old_images/4.png";
 
     var para1 = "<h5>Your partner in manufacturing of  foundry tooling, dies and fixtures.</h5><br>Alpha has consistently embraced innovation to provide reliable services to a wide range of industries.";
     var para2 = "<h5>We offer a wide range of foundry solutions.With over 2 decades experience in this field,</h5> <br>Alpha has earned a high reputation in foundry tooling solutions.";
