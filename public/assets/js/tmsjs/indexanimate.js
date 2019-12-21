@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
     imgchange();
 }
 
@@ -19,23 +19,23 @@ function imgchange() {
 
     var button1 = `  <a class="
     tp - caption fp_button_layer rev - btn tp - resizeme "
-    href = "service-pattern-making.html"
-    id = "slide-2-layer-4"
+    href = "service-dies-manufacturing.html"
+    id = "slide-2-layer-4" 
     
     
     style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:rgb(109, 68, 221);;border-color:rgba(0,0,0,0);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
     More </a> `;
     var button2 = `  <a class="
     tp - caption fp_button_layer rev - btn tp - resizeme "
-    href = "service-pattern-making.html"
+    href = "service-foundry-toolings.html"
     id = "slide-2-layer-4"
     
     
     style = "z-index: 9; white-space: nowrap; color: rgba(0,0,0,1);background-color:rgb(109, 68, 221);border-color:rgba(0,5,0,1);border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration:" > Know
-    More</a> `;
+    More 2  </a> `;
     var button3 = `  <a class="
     tp - caption fp_button_layer rev - btn tp - resizeme "
-    href = "service-pattern-making.html"
+    href = "inovation.html"</a>
     id = "slide-2-layer-4"
     
     
@@ -43,7 +43,7 @@ function imgchange() {
     More </a> `;
     var button4 = `  <a class="
     tp - caption fp_button_layer rev - btn tp - resizeme "
-    href = "service-pattern-making.html"
+    href = ".html"
     id = "slide-2-layer-4"
     
     
@@ -58,7 +58,7 @@ function imgchange() {
     var buttons = [button1, button2, button3, button4];
     var buttonindex = 0;
 
-    setInterval(function() {
+    setInterval(function () {
         var element = document.getElementById("para01");
         element.innerHTML = paragraph[paraindex];
 
