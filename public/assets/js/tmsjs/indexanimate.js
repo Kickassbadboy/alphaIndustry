@@ -35,7 +35,7 @@ function imgchange() {
     More 2  </a> `;
     var button3 = `  <a class="
     tp - caption fp_button_layer rev - btn tp - resizeme "
-    href = "inovation.html"</a>
+    href = "inovation.html"
     id = "slide-2-layer-4"
     
     
