@@ -9365,3 +9365,20 @@ background-color: #012f5d;
         margin-left: 20px;
     }
 }
+
+.left {
+    float: left;
+    margin-right: 40px;
+}
+
+.fig{
+    color: black;
+    margin-top: 50px;
+    margin-left: -120px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.jleft {
+    float: left;
+}
