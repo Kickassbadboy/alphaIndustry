@@ -9273,7 +9273,7 @@ background-color: #012f5d;
 
 .mob {
     margin-left: 160px;
-    width: 28%;
+    width: 500px;
     height: 560px;
     padding-top: 20px;
     padding-bottom: 100px;
@@ -9305,7 +9305,7 @@ background-color: #012f5d;
 
 .button {
     color: black;
-    margin-top: 20%;
+    margin-top: 25%;
     padding-left: 130px;
     position: absolute;
 }
@@ -9314,5 +9314,54 @@ background-color: #012f5d;
     .button {
         margin-top: -16px;
         margin-left: -90px;
+    }
+}
+
+.size {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.first {
+    width: 35%;
+    margin-left: 140px;
+    height: 560px;
+}
+
+@media (max-width:1000px) {
+    .first {
+        width: 90%;
+        height: 50%;
+        margin-left: 20px;
+    }
+}
+
+.second {
+    margin-top: 100px;
+    width: 45%;
+    height: 400px;
+    margin-bottom: 60px;
+}
+
+@media (max-width:1000px) {
+    .second {
+        width: 90%;
+        height: 50%;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+}
+
+.third {
+    margin-left: 160px;
+    width: 30%;
+    height: 560px;
+}
+
+@media (max-width:1000px) {
+    .third {
+        width: 90%;
+        height: 50%;
+        margin-left: 20px;
     }
 }
