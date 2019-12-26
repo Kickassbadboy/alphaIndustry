@@ -19,7 +19,7 @@ function imgchange() {
     var img4 = `<img class="mob" src="assets/images/Final/Old_images/4.png" alt="" >`;
 
     var para1 = "<h5 class='size'>Your partner in manufacturing of  foundry tooling, dies and fixtures.</h5><br>Alpha has consistently embraced innovation to provide reliable services to a wide range of industries.";
-    var para2 = "<h5 class='size'>We offer a wide range of foundry solutions.With over 2 decades experience in this field,</h5> <br>Alpha has earned a high reputation in foundry tooling solutions.";
+    var para2 = "<h5 class='size'>We offer a wide range of foundry solutions.</h5> <br>With over 2 decades experience in this field,Alpha has earned a high reputation in foundry tooling solutions.";
     var para3 = "<h5 class='size'>A proud team of experienced engineers with an innovative approach.</h5><br>Alpha has a qualified team of engineers and professionals ready to take on new industry challenges."
     var para4 = "<h5 class='size'>Allied expertise in design, simulation and reverse engineering.</h5><br>Alpha has established capabilities in designing of technically critical projects alongside customers by understanding their needs. <br>We have achieved competence in simulation of castings and design optimisation which guarantee reliable results."
 
@@ -50,7 +50,7 @@ function imgchange() {
     More   </a> `;
     var button4 = `  <a class="
     tp - caption fp_button_layer rev - btn tp - resizeme "
-    href = "Engineering.html"
+    href = ".html"
     id = "slide-2-layer-4"
     
     
