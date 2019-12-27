@@ -9371,7 +9371,21 @@ background-color: #012f5d;
     margin-right: 40px;
 }
 
-.fig{
+@media (max-width:1000px) {
+    .left {
+        margin-left: 100px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:1000px) {
+    .topleft {
+        float: left;
+        padding-top: 20px;
+    }
+}
+
+.fig {
     color: black;
     margin-top: 50px;
     margin-left: -120px;
@@ -9381,4 +9395,18 @@ background-color: #012f5d;
 
 .jleft {
     float: left;
+}
+
+.framewidth {
+    margin-left: 20%;
+}
+
+@media (max-width:1000px) {
+    .framewidth {
+        width: 100%;
+    }
+}
+
+.iconpad {
+    padding-right: 20px;
 }
